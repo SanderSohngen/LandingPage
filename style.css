@@ -140,14 +140,16 @@ i {
 
 
 .signup {
-    background-color: #656D4A;
+    background-color: #A68A64;
     color: #EDE0D4;
     padding: 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
-    background-color: #A68A64;
-    color: #414833;
+    background-color: #EDE0D4;
+    color: #7F5539;
     display: flex;
     gap: 16px;
     border-radius: 10px;
@@ -155,16 +157,15 @@ i {
     justify-content: space-around;
     padding: 16px;
     margin: 10px;
+    width: 1000px;
+
 }
 
-.signup-text {
-    color: #EDE0D4;
-}
 
 .box button {
     background-color: #EDE0D4;
     color: #7F5539;
-    border: 0px;
+    border: 1px solid #7F5539;
     
 }
 
