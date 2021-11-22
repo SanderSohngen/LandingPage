@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-</head>
-<body>
-    <div class="header"> 
-        <img src="" alt="coffee logo">
-        <ul class="links">
-            <li> <a href="">header link one</a></li>
-            <li> <a href="">header link two</a></li>
-            <li> <a href="">header link three</a></li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/logo.png" alt="coffee logo" />
+      <ul class="links">
+        <li><a href="#about">About coffee</a></li>
+        <li><a href="#quote">Consumer experience</a></li>
+        <li>
+          <a
+            href="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page"
+            >Odin Project</a
+          >
+        </li>
+      </ul>
     </div>
-    <div class="content"> 
+    <div class="content">
+      <div class="content-box">
         <div class="text">
-            <h1 class="title"> This website is awesome</h1>
-            <p class="subtitle"> Subtitle</p>
-            <button> Sign up</button>
+          <p class="title">Greatest Coffee</p>
+          <p class="subtitle">
+            Coffee is great! We love it. But flavour is only one part of the
+            whole experience. We knew something was missing. Something that
+            matched the purity coffee carries. We found it, on the other side of
+            the world. Japan. It had everything we were looking for. Simplicity,
+            minimalism, the constantly search for perfection. Inspired by
+            everything we saw there, Greatest Coffee was designed. The best of
+            Brazilian coffee combined with the purity of japan. Grab and to go.
+            Simple.
+          </p>
+          <button>Sign up</button>
         </div>
-        <img src="" alt="img placeholder">
+        <img src="img/secondary.jpg" alt="coffee mug on a notebook" />
+      </div>
     </div>
     <div class="middle">
-        <p> random information</p>
-        <div class="container">
-            <div class="card">
-                <img src="" alt="card img">
-                <p> subtext under image</p>
-            </div>
-            <div class="card">
-                <img src="" alt="card img">
-                <p> subtext under image</p>
-            </div>
-            <div class="card">
-                <img src="" alt="card img">
-                <p> subtext under image</p>
-            </div>
-            <div class="card">
-                <img src="" alt="card img">
-                <p> subtext under image</p>
-            </div>
+      <p class="info" id="about">About coffee</p>
+      <div class="container">
+        <div class="card">
+          <img src="img/beans.jpg" alt="card img" />
+          <p>
+            Coffee is a brewed drink prepared from roasted coffee beans, the
+            seeds of berries from certain Coffea species
+          </p>
         </div>
+        <div class="card">
+          <img src="img/coffee.jpg" alt="card img" />
+          <p>
+            Coffee is darkly colored, bitter, slightly acidic and has a
+            stimulating effect in humans, primarily due to its caffeine content.
+            It is one of the most popular drinks in the world and can be
+            prepared and presented in a variety of ways
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/drinking.jpg" alt="card img" />
+          <p>
+            Clinical research indicates that moderate coffee consumption is
+            benign or mildly beneficial as a stimulant in healthy adults
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/harvest.jpg" alt="card img" />
+          <p>
+            In 2020, world production of green coffee beans was 175,647,000 60
+            kg bags, led by Brazil with 39% of the total
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="quote">
-        <p> Inspring quote</p>
-        <p> Author</p>
+    <div class="quote" id="quote">
+      <div class="quote-box">
+        <i>
+          It's not just about drinking a great coffee. It's also about having
+          the oportunity to experiment in a cup, beyond all aromas, the love and
+          dedication from the team. It's beautiful to see them working. Yes,
+          Greatest Coffee is truly a wonderful place..</i
+        >
+        <p>-Expert, Coffee Drinker</p>
+      </div>
     </div>
     <div class="signup">
+      <div class="box">
         <div class="signup-text">
-            <p> Title</p>
-            <p> text</p>
+          <p>Buy with us now</p>
+          <p>Sign up to receive the best coffee at home</p>
         </div>
-        <button> Sign up</button>
+        <button>Sign up</button>
+      </div>
     </div>
     <div class="footer">
-        <p> Copyright &copy; The Odin Project 2021</p>
+      <p>Copyright &copy; The Odin Project 2021</p>
     </div>
-</body>
+  </body>
 </html>

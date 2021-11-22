@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Montserrat&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #EDE0D4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 16px;
+    background-color: #7F5539;
+}
+
+.header img {
+    max-height: 72px;
+    margin-right: auto;
+}
+
+.content {
+    background-color: #7F5539;
+    display: flex;
+    justify-content: center;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px;
+    max-width: 1000px;
+}
+
+.text {
+    color: #EDE0D4;
+    gap: 10px;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.content img {
+    max-height: 250px;
+    border-radius: 40px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.text button {
+    background-color: #EDE0D4;
+    color: #7F5539;
+    border: 0px;
+}
+
+.middle {
+    background-color: #A68A64;
+    color: #EDE0D4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+}
+
+.card {
+    text-align: center;
+    padding: 32px;
+    margin: 16px;
+    width: 300px;
+}
+
+.card img {
+    max-height: 250px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #EDE0D4;
+    color: #7F5539;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    max-width: 1000px;
+}
+
+i {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;   
+}
+
+.quote p {
+    margin-left: auto;
+}
+
+
+.signup {
+    background-color: #656D4A;
+    color: #EDE0D4;
+    padding: 32px;
+}
+
+.box {
+    background-color: #A68A64;
+    color: #414833;
+    display: flex;
+    gap: 16px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 10px;
+}
+
+.signup-text {
+    color: #EDE0D4;
+}
+
+.box button {
+    background-color: #EDE0D4;
+    color: #7F5539;
+    border: 0px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #414833;
+    color: #EDE0D4;
+}
+
